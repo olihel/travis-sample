@@ -1,6 +1,8 @@
 {
   "globals": {
-    "module": false
+    "require": false,
+    "module": false,
+    "exports": false
   },
   "forin": true,
   "immed": true,
