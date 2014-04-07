@@ -4,7 +4,7 @@
   "description": "Playing with Travis-CI",
   "main": "lib/index.js",
   "scripts": {
-    "test": "grunt jshint --verbose"
+    "test": "grunt travis --verbose"
   },
   "repository": {
     "type": "git",
