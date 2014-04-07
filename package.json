@@ -1,0 +1,24 @@
+{
+  "name": "travis-sample",
+  "version": "0.0.0",
+  "description": "Playing with Travis-CI",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/olihel/travis-sample.git"
+  },
+  "keywords": [
+    "travis",
+    "ci"
+  ],
+  "author": "Oliver Hellebusch <mail@olihel.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/olihel/travis-sample/issues"
+  },
+  "homepage": "https://github.com/olihel/travis-sample",
+  "private": true
+}
