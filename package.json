@@ -20,5 +20,9 @@
     "url": "https://github.com/olihel/travis-sample/issues"
   },
   "homepage": "https://github.com/olihel/travis-sample",
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "grunt": "^0.4.4",
+    "grunt-contrib-jshint": "^0.10.0"
+  }
 }
