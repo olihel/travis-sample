@@ -5,15 +5,15 @@ Playing with [Travis-CI](https://travis-ci.org)
 
 [![Build Status](https://travis-ci.org/olihel/travis-sample.svg?branch=master)](https://travis-ci.org/olihel/travis-sample)
 
-### This project
+### About
 
-This is an example project for demonstrating Travis CI: a dummy npm module returning a test value. The module code is found in the `lib/index.js` file.
+Example project for demonstrating Travis CI: a dummy npm module returning a test value. The module code is found in the `lib/index.js` file.
 
 A simple unit test is verifying the return value of the module and is located in the `test/` folder. The unit test is started via the Grunt task `grunt nodeunit` (see [nodeunit](https://github.com/caolan/nodeunit) / [grunt-contrib-nodeunit](https://github.com/gruntjs/grunt-contrib-nodeunit)).
 
 All JavaScript files in this project are linted by jshint via the Grunt task `grunt jshint` (see [jshint](http://www.jshint.com) / [grunt-contrib-jshint](https://github.com/gruntjs/grunt-contrib-jshint)). Linting rules are defined in the `.jshintrc` file in the project root.
 
-Clone this project and run `npm install` to install all node dependencies. Run `npm test` for starting unit tests and the linting task locally.
+Clone this project and run `npm install` to install all node dependencies. Run `npm test` for starting unit tests and linting task locally.
 
 ### Travis CI
 
